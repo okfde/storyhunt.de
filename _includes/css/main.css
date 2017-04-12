@@ -27,10 +27,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.secondary-dark }
-}
-
-;
+    color: #{{ site.color.secondary-dark }};
 }
 
 h1,
@@ -172,10 +169,7 @@ section h2 {
 
 section.success {
     color: #ffffff;
-    background: #{{ site.color.primary }
-}
-
-;
+    background: #{{ site.color.primary }};
 }
 
 @media (max-width: 767px) {
@@ -207,8 +201,8 @@ section.success {
     opacity: 0;
 
 background:
-
 rgba
+
 (
 {
 {
@@ -287,13 +281,8 @@ s
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #000000;
-    color: #{{ site.color.primary }
-}
-
-;
-background: #000000
-
-;
+    color: #{{ site.color.primary }};
+    background: #000000;
 }
 
 .floating-label-form-group {
@@ -345,10 +334,7 @@ background: #000000
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }
-}
-
-;
+    color: #{{ site.color.primary }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -365,10 +351,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
+    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
@@ -377,10 +360,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }
-}
-
-;
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -468,82 +448,24 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform:
-
-rotate
-(
-45
-deg
-
-)
-;
--ms-transform:
-
-rotate
-(
-45
-deg
-
-)
-;
-transform:
-
-rotate
-(
-45
-deg
-
-)
-;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform:rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform:
-
-rotate
-(
-90
-deg
-
-)
-;
--ms-transform:
-
-rotate
-(
-90
-deg
-
-)
-;
-transform:
-
-rotate
-(
-90
-deg
-
-)
-;
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .navbar-nav > .active > a {
-    background-color: #{{ site.color.secondary-dark }
-}
-
-!important
-;
+    background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
