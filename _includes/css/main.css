@@ -4,7 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
 /** {
     border: black 0.1px dashed;
 }*/
@@ -13,12 +12,10 @@ body {
     overflow-x: hidden;
 }
 
-
 p {
     font-size: 20px;
-    color:#000000;
+    color: #000000;
 }
-
 
 p.small {
     font-size: 16px;
@@ -30,7 +27,10 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary-dark }
+}
+
+;
 }
 
 h1,
@@ -40,9 +40,9 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Lato",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Lato", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    color:#000000;
+    color: #000000;
 }
 
 hr.star-light,
@@ -55,7 +55,6 @@ hr.star-primary {
     text-align: center;
 }
 
-
 .img-centered {
     margin: 0 auto;
 }
@@ -64,14 +63,14 @@ header {
     text-align: center;
     color: #000000;
     font-size: 3;
-    
+
 }
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     color: #000000;
-     
+
 }
 
 .container-logo {
@@ -89,19 +88,18 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300; 
-    color:#000000;         
+    font-weight: 300;
+    color: #000000;
 }
 
-
-@media(min-width:768px) {
+@media (min-width: 768px) {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
@@ -116,7 +114,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -142,7 +140,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -174,10 +172,13 @@ section h2 {
 
 section.success {
     color: #ffffff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.primary }
 }
 
-@media(max-width:767px) {
+;
+}
+
+@media (max-width: 767px) {
     section {
         padding: 75px 0;
     }
@@ -204,10 +205,38 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
+
+background:
+
+rgba
+(
+{
+{
+    site . color . primary-rgb
+}
+}
+,
+.9
+)
+;
+-webkit-transition: all ease
+
+.5
+s
+
+;
+-moz-transition: all ease
+
+.5
+s
+
+;
+transition: all ease
+
+.5
+s
+
+;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -238,7 +267,7 @@ section.success {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -258,8 +287,13 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #000000;
-    color: #{{ site.color.primary }};
-    background: #000000;
+    color: #{{ site.color.primary }
+}
+
+;
+background: #000000
+
+;
 }
 
 .floating-label-form-group {
@@ -279,7 +313,7 @@ section.success {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -294,10 +328,10 @@ section.success {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -311,7 +345,10 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.primary }
+}
+
+;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -328,7 +365,10 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary }
+}
+
+;
 }
 
 footer .footer-col {
@@ -337,7 +377,10 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary-dark }
+}
+
+;
 }
 
 .btn-social {
@@ -425,24 +468,82 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    background-color: #{{ site.color.secondary }
+}
+
+;
+-webkit-transform:
+
+rotate
+(
+45
+deg
+
+)
+;
+-ms-transform:
+
+rotate
+(
+45
+deg
+
+)
+;
+transform:
+
+rotate
+(
+45
+deg
+
+)
+;
 }
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    background-color: #{{ site.color.secondary }
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+;
+-webkit-transform:
+
+rotate
+(
+90
+deg
+
+)
+;
+-ms-transform:
+
+rotate
+(
+90
+deg
+
+)
+;
+transform:
+
+rotate
+(
+90
+deg
+
+)
+;
+}
+
+.navbar-nav > .active > a {
+    background-color: #{{ site.color.secondary-dark }
+}
+
+!important
+;
 }
 
 /* Fix modal mouse wheel issues */
@@ -452,12 +553,12 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url("/img/background-parallax-2.png");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -466,12 +567,12 @@ footer .footer-below {
     background-size: cover;
 }
 
-.parallax2 { 
+.parallax2 {
     /* The image used */
     background-image: url("/img/background-parallax.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
