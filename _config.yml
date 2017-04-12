@@ -1,0 +1,58 @@
+# Site settings
+title: The Story Hunt
+email: your-email@domain.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Uncover the EU"
+meta_author: Bootcamp Storyhunt
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: EEEEEE #d8b365
+  primary-rgb: "39, 196, 244" #"216,179,101"
+  secondary: 26b7d9 #B2230B
+  secondary-dark: F62459 #01665e
+
+# Footer settings
+footer:
+  copyright: CC-BY 2.0
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/openbudgetsEU
+  - title: email
+    url: mailto:anna.alberts@okfn.de
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Singerstraße 109
+  - line: 10179 Berlin
+
+# Credits content
+credits: 'Design: Freelancer Theme edited by Bela Seeger'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
