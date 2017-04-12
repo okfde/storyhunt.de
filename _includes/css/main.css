@@ -357,6 +357,10 @@ footer .footer-below {
     outline: 0;
 }
 
+.nav-mark a {
+    color: #F9BF3B !important;
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
