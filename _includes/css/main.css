@@ -172,6 +172,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.success2 {
+    color: #ffffff;
+    background: #{{ site.color.primary }};
+}
+
 @media (max-width: 767px) {
     section {
         padding: 75px 0;
@@ -465,7 +470,7 @@ footer .footer-below {
 }
 
 .navbar-nav > .active > a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
