@@ -177,6 +177,11 @@ section.success2 {
     background: #{{ site.color.primary }};
 }
 
+section.success3 {
+    color: #ffffff;
+    background: #f8be3b;
+}
+
 @media (max-width: 767px) {
     section {
         padding: 75px 0;
@@ -356,7 +361,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 footer .footer-col {
@@ -482,7 +487,7 @@ footer .footer-below {
 
 .parallax {
     /* The image used */
-    background-image: url("/img/background-parallax-2.png");
+    background-image: url("/img/background-parallax.png");
 
     /* Set a specific height */
     height: 500px;
@@ -496,7 +501,7 @@ footer .footer-below {
 
 .parallax2 {
     /* The image used */
-    background-image: url("/img/background-parallax.jpg");
+    background-image: url("/img/background-parallax.png");
 
     /* Set a specific height */
     height: 500px;

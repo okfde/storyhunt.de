@@ -31,16 +31,16 @@ color:
 
 # Footer settings
 footer:
-  copyright: CC-BY 2.0
+  copyright: CC-0
   location: Location
-  social: Around the Web
+  social: Contact
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/openbudgetsEU
-  - title: email
+  - title: mail
     url: mailto:anna.alberts@okfn.de
 
 
