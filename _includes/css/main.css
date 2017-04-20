@@ -487,7 +487,7 @@ footer .footer-below {
 
 .parallax {
     /* The image used */
-    background-image: url("/img/background-parallax.png");
+    background-image: url("/img/background-parallax.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -501,7 +501,7 @@ footer .footer-below {
 
 .parallax2 {
     /* The image used */
-    background-image: url("/img/background-parallax.png");
+    background-image: url("/img/background-parallax-2.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -512,3 +512,32 @@ footer .footer-below {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax3 {
+    /* The image used */
+    background-image: url("/img/background-parallax-3.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("/img/background-parallax-4.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
