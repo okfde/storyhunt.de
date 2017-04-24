@@ -29,10 +29,6 @@ img {
     max-height: 50%;
 }
 
-#logobox {
-    margin: 50px, 10px, 50px, 50px;
-}
-
 p:small {
     font-size: 12px;
 }
@@ -66,6 +62,16 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+}
+
+hr.star-secondary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    color:#{{ site.color.secondary-dark }};
 }
 
 .img-centered {
