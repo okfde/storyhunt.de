@@ -1,10 +1,10 @@
 # Site settings
 title: The Story Hunt
-email: your-email@domain.com
+email: info@thestoryhunt.de
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "'The Story Hunt: Uncover the EU' is a programme by Datenschule and OpenBudgets of Open Knowledge Foundation. It comprises five workshops and a weekend-expedition. Join now and hunt for stories in financial data!"
 skills: "Uncover the EU"
-meta_author: Bootcamp Storyhunt
+meta_author: Open Knowledge Foundation Germany
 
 # Google webmaster tools
 google_verify:
@@ -31,7 +31,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: CC-0
+  copyright: CC-BY
   location: Location
   social: Contact
   credits: Credits
@@ -39,9 +39,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/openbudgetsEU
+    url: http://twitter.com/okfde
   - title: mail
-    url: mailto:anna.alberts@okfn.de
+    url: mailto:info@storyhunt.de
 
 
 # Postal address (add as many lines as necessary)
@@ -50,7 +50,7 @@ address:
   - line: 10179 Berlin
 
 # Credits content
-credits: 'Design: Freelancer Theme edited by Bela Seeger'
+credits: 'Open Knowledge Foundation Germany'
 
 # Build settings
 markdown: kramdown
