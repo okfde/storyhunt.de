@@ -24,15 +24,6 @@ img {
     max-height: 100%;
 }
 
-.imgbig {
-    max width: 50%;
-    max-height: 50%;
-}
-
-p:small {
-    font-size: 12px;
-}
-
 a,
 a:hover,
 a:focus,
@@ -52,6 +43,22 @@ h6 {
     font-family: Montserrat, "Lato", Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #000000;
+}
+
+header {
+    text-align: center;
+    color: #000000;
+    font-size: 3pt;
+
+}
+
+.imgbig {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+p.small {
+    font-size: 12px;
 }
 
 hr.star-light,
@@ -78,13 +85,6 @@ hr.star-secondary {
     margin: 0 auto;
 }
 
-header {
-    text-align: center;
-    color: #000000;
-    font-size: 3;
-
-}
-
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -93,15 +93,14 @@ header .container {
 }
 
 .container-logo {
-    position: absolute;
-    margin-left: -60px;
-    margin-top: 3px;
+    /*position: absolute;*/
+    /*margin-left: -60px;*/
+    /*margin-top: 3px;*/
 }
 
 header img {
     display: block;
     margin: 0 auto 20px;
-
 }
 
 header .intro-text .name {
@@ -189,21 +188,6 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
-    color: #ffffff;
-    background: #{{ site.color.primary }};
-}
-
-section.success2 {
-    color: #ffffff;
-    background: #{{ site.color.primary }};
-}
-
-section.success3 {
-    color: #ffffff;
-    background: #f8be3b;
-}
-
 @media (max-width: 767px) {
     section {
         padding: 75px 0;
@@ -212,165 +196,6 @@ section.success3 {
     section.first {
         padding-top: 75px;
     }
-}
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-
-background:
-rgba
-
-(
-{
-{
-    site . color . primary-rgb
-}
-}
-,
-.9
-)
-;
--webkit-transition: all ease
-
-.5
-s
-
-;
--moz-transition: all ease
-
-.5
-s
-
-;
-transition: all ease
-
-.5
-s
-
-;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #000000;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}
-
-#portfolio * {
-    z-index: 2;
-}
-
-@media (min-width: 767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
-.btn-outline {
-    margin-top: 15px;
-    border: solid 2px #000000;
-    font-size: 20px;
-    color: #000000;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #000000;
-    color: #{{ site.color.primary }};
-    background: #000000;
-}
-
-.floating-label-form-group {
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
-}
-
-.floating-label-form-group input,
-.floating-label-form-group textarea {
-    z-index: 1;
-    position: relative;
-    padding-right: 0;
-    padding-left: 0;
-    border: 0;
-    border-radius: 0;
-    font-size: 1.5em;
-    background: 0 0;
-    box-shadow: none !important;
-    resize: none;
-}
-
-.floating-label-form-group label {
-    display: block;
-    z-index: 0;
-    position: relative;
-    top: 2em;
-    margin: 0;
-    font-size: .85em;
-    line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
-    opacity: 0;
-    -webkit-transition: top .3s ease, opacity .3s ease;
-    -moz-transition: top .3s ease, opacity .3s ease;
-    -ms-transition: top .3s ease, opacity .3s ease;
-    transition: top .3s ease, opacity .3s ease;
-}
-
-.floating-label-form-group::not(:first-child) {
-    padding-left: 14px;
-    border-left: 1px solid #eee;
-}
-
-.floating-label-form-group-with-value label {
-    top: 0;
-    opacity: 1;
-}
-
-.floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
-}
-
-form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
 }
 
 footer {
@@ -416,164 +241,37 @@ footer .footer-below {
     color: #F9BF3B !important;
 }
 
-.scroll-top {
-    z-index: 1049;
-    position: fixed;
-    right: 2%;
-    bottom: 2%;
-    width: 50px;
-    height: 50px;
-}
-
-.scroll-top .btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
-}
-
 .scroll-top .btn:focus {
     outline: 0;
-}
-
-.portfolio-modal .modal-content {
-    padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
-}
-
-.portfolio-modal .close-modal {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform:rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #{{ site.color.secondary }};
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
 }
 
 .navbar-nav > .active > a {
     background-color: #{{ site.color.secondary }} !important;
 }
 
-/* Fix modal mouse wheel issues */
-/* https://github.com/twbs/bootstrap/issues/16297 */
-.modal.fade.in {
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-}
-
 .parallax {
-    /* The image used */
-    background-image: url("/img/background-parallax.jpg");
-
-    /* Set a specific height */
     height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: no-repeat fixed center;
     background-size: cover;
 }
 
-.parallax1 {
-    /* The image used */
-    background-image: url("/img/background-parallax-1.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax-mushroom {
+    background-image: url("/img/background-mushroom.jpg");
 }
 
-.parallax2 {
-    /* The image used */
-    background-image: url("/img/background-parallax-2.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax-forest-dark {
+    background-image: url("/img/background-forest-dark.jpg");
 }
 
-.parallax3 {
-    /* The image used */
-    background-image: url("/img/background-parallax-3.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax-forest-light {
+    background-image: url("/img/background-forest-light.jpg");
 }
 
-.parallax4 {
-    /* The image used */
-    background-image: url("/img/background-parallax-4.jpg");
+.parallax-mice-farm {
+    background-image: url("/img/background-mice-farm.jpg");
+}
 
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax-hands {
+    background-image: url("/img/background-hands.jpg");
 }
 
