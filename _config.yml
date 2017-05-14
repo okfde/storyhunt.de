@@ -1,26 +1,10 @@
 # Site settings
 title: The Story Hunt
-email: info@thestoryhunt.de
 url: https://storyhunt.de/
-description: "'The Story Hunt: Uncover the EU' is a programme by Datenschule and OpenBudgets of Open Knowledge Foundation. It comprises five workshops and a weekend-expedition. Join now and hunt for stories in financial data!"
-skills: "Uncover the EU"
-meta_author: Open Knowledge Foundation Germany
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+sass:
+  ssas_dir: css/_sass
+  style: compressed
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -28,29 +12,6 @@ color:
   primary-rgb: "39, 196, 244" #"216,179,101"
   secondary: 0A070C #B2230B
   secondary-dark: F62459 #01665e
-
-# Footer settings
-footer:
-  copyright: CC-BY
-  location: Location
-  social: Contact
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/okfde
-  - title: mail
-    url: mailto:info@storyhunt.de
-
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Singerstraße 109
-  - line: 10179 Berlin
-
-# Credits content
-credits: 'Open Knowledge Foundation Germany'
 
 # Build settings
 markdown: kramdown
