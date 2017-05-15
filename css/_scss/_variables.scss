@@ -1,0 +1,26 @@
+//=============
+//   Colors
+//=============
+$primary: #EEEEEE; //#d8b365
+$primary-rgb: "39, 196, 244"; //"216,179,101"
+$secondary: #0A070C; //#B2230B
+$secondary-dark: #F62459; //#01665e
+
+$white: #fff;
+
+$grey: #eee;
+
+$black: #000;
+$black-light: #1a242f;
+$black-light-border: #161f29;
+
+$yellow: #F9BF3B;
+
+//====================
+// Media Breakpoints
+//====================
+$iphone-retina: "(max-width : 320px)";
+$phones: "(max-width : 480px)";
+$small-devices: "(min-width : 768px)";
+$medium-devices: "(min-width : 992px)";
+$large-devices: "(min-width : 1200px)";

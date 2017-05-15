@@ -1,0 +1,36 @@
+.parallax-row {
+  display:none;
+}
+
+
+@media #{$medium-devices} {
+  .parallax-row {
+    display: block;
+  }
+
+  .parallax {
+    height: 500px;
+    background: no-repeat fixed center;
+    background-size: cover;
+  }
+
+  .parallax-mushroom {
+    background-image: url("/img/background-mushroom.jpg");
+  }
+
+  .parallax-forest-dark {
+    background-image: url("/img/background-forest-dark.jpg");
+  }
+
+  .parallax-forest-light {
+    background-image: url("/img/background-forest-light.jpg");
+  }
+
+  .parallax-mice-farm {
+    background-image: url("/img/background-mice-farm.jpg");
+  }
+
+  .parallax-hands {
+    background-image: url("/img/background-hands.jpg");
+  }
+}

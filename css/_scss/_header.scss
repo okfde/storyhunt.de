@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+  color: $black;
+  font-size: 3pt;
+
+  img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+
+  .intro-text {
+
+    .name {
+      display: block;
+      text-transform: uppercase;
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 2em;
+      font-weight: 700;
+    }
+
+    .skills {
+      font-size: 1.25em;
+      font-weight: 300;
+      color: $black;
+    }
+  }
+
+  .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: $black;
+  }
+}
