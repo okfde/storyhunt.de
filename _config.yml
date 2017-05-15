@@ -3,7 +3,7 @@ title: The Story Hunt
 url: https://storyhunt.de/
 
 sass:
-  ssas_dir: css/_sass
+  sass_dir: css/_scss
   style: compressed
 
 # Color settings (hex-codes without the leading hash-tag)
